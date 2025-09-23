@@ -50,12 +50,26 @@
         }
         
         .logo {
+            padding: 0;
+            margin: 0;
+            position: relative ;
+            left:-70px;
+            top: -20px;
             font-size: 2rem;
             font-weight: bold;
             color: var(--yellow);
             text-shadow: 0 0 10px rgba(233, 196, 106, 0.5);
         }
-        
+        #logoimg{
+            padding: 0;
+            margin: 0;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border-color: rgb(214, 226, 226);
+            border: 10px;
+            right: 40px;
+        }
         .nav-links {
             display: flex;
             gap: 25px;
@@ -66,7 +80,8 @@
             text-decoration: none;
             font-weight: 500;
             transition: all 0s ease;
-            position: relative;
+            position: relative !important;
+
         }
         
         .nav-links a:hover {
@@ -75,7 +90,7 @@
         
         .nav-links a::after {
             content: '';
-            position: absolute;
+            position: absolute !important;
             bottom: -5px;
             left: 0;
             width: 0;
