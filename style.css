@@ -269,8 +269,8 @@
         
         /* Section Styles */
         .section {
-            background: rgba(38, 70, 83, 0.8);
-            border-radius: 15px;
+            background: rgba(248, 249, 250, 0.8);
+            border-radius: 0px;
             padding: 30px;
             margin: 40px 0;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -354,6 +354,9 @@
         }
         
         /* Timeline */
+        .timeline{
+            justify-items: center;
+        }
         .circal{
     width: 300px;
     height: 300px;
@@ -364,7 +367,8 @@
     position: relative;
     box-shadow: 0px 5px 12px rgb(245, 243, 243);
     transition: 1s;
-    
+    margin: 5%;
+    right:0;
     
 }
 .circal img{
