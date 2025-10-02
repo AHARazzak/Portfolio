@@ -261,7 +261,9 @@ h1 {
 #Home span {
     color: brown;
 }
-
+.subject{
+    justify-content: left !important;
+}
 .btn {
     display: inline-block;
     padding: 12px 30px;
