@@ -612,3 +612,10 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+h2::before,
+h2::after,
+h3::before,
+h3::after {
+  display: none;
+}
