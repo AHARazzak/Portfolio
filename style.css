@@ -57,6 +57,7 @@
     font-weight: 800;
     letter-spacing: -0.02em;
     background: linear-gradient(135deg, var(--accent2), var(--accent), var(--accent3));
+    background-clip: text;
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     opacity: 0;
   }
@@ -98,7 +99,8 @@
     font-family: 'Syne', sans-serif;
     font-size: 1.2rem; font-weight: 800;
     background: linear-gradient(90deg, var(--accent2), var(--accent));
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
   }
   .nav-links { display: flex; gap: 32px; list-style: none; }
@@ -183,7 +185,7 @@
   }
   .hero-h1 .name-highlight {
     background: linear-gradient(135deg, var(--accent2) 0%, var(--accent) 50%, var(--accent3) 100%);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
   .hero-subtitle {
     margin-top: 24px;
@@ -295,7 +297,7 @@
   }
   .section-title span {
     background: linear-gradient(135deg, var(--accent2), var(--accent));
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
   .about-text { color: var(--muted); line-height: 1.8; margin-bottom: 36px; }
   .skills-grid {
@@ -454,6 +456,7 @@
   .footer-logo {
     font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 800;
     background: linear-gradient(90deg, var(--accent2), var(--accent));
+    background-clip: text;
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
   .footer-links { display: flex; gap: 28px; }
